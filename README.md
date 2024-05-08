@@ -26,7 +26,30 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 
-## Output
+## PROGRAM:
+# CLIENT:
+
+![image](https://github.com/danushreddy7/4.Execution_of_NetworkCommends/assets/149035740/c47c28ea-0ae3-4009-87a7-7940ccb6acff)
+
+# SERVER:
+
+![image](https://github.com/danushreddy7/4.Execution_of_NetworkCommends/assets/149035740/e40cdd49-26fb-4131-8271-186cfe4e13b2)
+
+# TRACER:
+from scapy.all import* 
+target = ["www.google.com"] 
+result, unans = traceroute(target,maxttl=32) 
+print(result,unans) 
+
+
+## Output:
+# CLIENT:
+
+![image](https://github.com/danushreddy7/4.Execution_of_NetworkCommends/assets/149035740/6e371f58-e818-4500-b5e6-fbd0d53a0f10)
+
+# SERVER:
+
+![image](https://github.com/danushreddy7/4.Execution_of_NetworkCommends/assets/149035740/4691644d-78b8-4ee8-a925-d85c6069b4b7)
 
 ## Result
 Thus Execution of Network commands Performed 
